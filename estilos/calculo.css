@@ -26,7 +26,7 @@ form {
     flex-direction: column;
     align-items: flex-start; 
     background-color: #fff;
-    padding: 20px;
+    padding: 30px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
@@ -81,3 +81,16 @@ button {
     background-color: #45a049; 
   }
   
+  button:hover {
+    background-color: #45a049; 
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+    form, .output-container { 
+        margin: 0 5px; 
+    }
+}

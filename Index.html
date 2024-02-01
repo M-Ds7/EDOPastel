@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evidencia David</title>
+    <link rel="stylesheet" href="./estilos/calculo.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Problema Pastel</h1>
+      <div>
+        <form action="" id="myform">
+          <label for="inputti1">Dijite el valor de t1</label>
+          <input type="number" id="inputti1" />
+
+          <label for="inputt0">Dijite el valor de T0</label>
+          <input type="number" id="inputt0" />
+
+          <label for="inputt1">Dijite el valor de T1</label>
+          <input type="number" id="inputt1" />
+
+          <label for="inputt2">Dijite el valor de T2</label>
+          <input type="number" id="inputt2" />
+
+          <label for="inputta">Dijite el valor de Ta</label>
+          <input type="number" id="inputta" />
+          <button type="submit">Calcular</button>
+        </form>
+      </div>
+
+      <div class="output-container">
+        <label for="inputC">El valor de c es</label>
+        <p><input type="text" id="inputC" value="c" readonly /></p>
+
+        <label for="inputK">El valor de K es</label>
+        <p><input type="text" id="inputK" value="k" readonly /></p>
+
+        <label for="inputT">El valor de t es</label>
+        <p><input type="text" id="inputT" value="t" readonly /></p>
+      </div>
+    </div>
+    <script src="./JS/mate.js"></script>
+  </body>
+</html>
